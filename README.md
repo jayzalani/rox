@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rox Assignment
 
-## Getting Started
+## Description
+A assignement for campus drive 2024 by Jay zalani.
 
-First, run the development server:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Routes](#api-routes)
+- [Components](#components)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd your-repo-name
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env.local` file in the root directory
+   - Add your MongoDB connection string:
+     ```
+     MONGODB_URI=your_mongodb_connection_string
+     ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+1. Run the development server:
+   ```
+   npm run dev
+   ```
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## API Routes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### /api/combined
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### /api/piechart
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### /api/seed
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### /api/statistics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### /api/transactions
+
+
+
+## Screenshots
+
+![Screenshot 2024-10-09 132436](https://github.com/user-attachments/assets/f1abc085-48f4-408c-9461-ce9ee1c95785)
+![Screenshot 2024-10-09 132348](https://github.com/user-attachments/assets/5179280f-1443-4025-80c2-897b4a1afb61)
+![Screenshot 2024-10-09 132333](https://github.com/user-attachments/assets/dbe74383-c6f9-4cb8-a5fb-bbfeb9405278)
+![Screenshot 2024-10-09 132322](https://github.com/user-attachments/assets/0262582b-db59-48e2-8cc5-c60fcb719c9e)
+
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
